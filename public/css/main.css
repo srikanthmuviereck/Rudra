@@ -1,0 +1,152 @@
+span.error{
+    color:red;
+    font-size: 12px;
+}
+label{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.gold{
+color:gold;
+}
+.red{
+    color:red;
+}
+.cursive{
+font-family: cursive;
+}
+
+.boxshadow{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.boxshadow-left{
+    box-shadow: 8px 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.panel-default>.panel-heading, .panel-default>.panel-footer {
+    color: #333;
+    background-color: #f5f5f5;
+    border-color: #ddd;
+    padding: 10px;
+    text-align: center;
+}
+.panel {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+}
+.panel-body{
+    padding:20px;
+}
+bold{
+    font-weight: bold;
+}
+
+label.required:after {
+    color: #d00;
+    content: "*";
+    margin-left: 3px;
+    top:7px;
+}
+
+.mt-per-10{
+    margin-top: 10% !important;
+}
+
+.icon-round{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    padding: 0px 5px;
+    box-shadow: none;
+    border: none;
+    padding-bottom: 2px;
+}
+
+.select2.select2-container.select2-container--default{
+    width: 100% !important;
+    display: block;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+    line-height: 32px !important;
+}
+.select2-container .select2-selection--single{
+    height: 35px !important;
+}
+
+
+.searchable-dropdown{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 10px;
+    position:absolute;
+    background-color: white;
+    height: 300px;
+}
+.input-group span.input-icon{
+    width: 30px;
+    text-align: center;
+    padding-top: 5px;
+    border: solid 1px #ced4da;
+}
+.cursor-hand{
+    cursor: pointer;
+}
+.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.bg-white{
+    background-color: white;
+}
+.searchable-dropdown{
+    padding-top: 0px;
+}
+.searchable-dropdown input[type="search"]{
+    box-shadow: inset 0 0 5px 5px #f5f5f5 !important;
+}
+.searchable-dropdown .input-group{
+    padding: 10px 0;
+}
+.searchable-dropdown .footer-fixed{
+    bottom: -10px;
+    padding: 10px;
+    background-color: white;
+}
+.searchable-dropdown .table{
+    margin-bottom: 0px;
+    height: 190px;
+    overflow: auto;
+}
+.table-select:hover{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.wire-loader .loader {
+    animation: none;
+    z-index: 99;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #00000057;
+    z-index: 99;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.wire-loader .spinner-border{
+
+    display: none;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin-left: 50%;
+    position: fixed;
+    margin-top: 20%;
+    z-index: 9999;
+}

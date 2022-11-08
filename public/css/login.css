@@ -1,0 +1,35 @@
+.mt-per15{
+    margin-top: 10%;
+}
+.mw-50px{
+    max-width: 50px;
+}
+.flex{
+    display: flex;
+}
+.title-flex{
+    margin-bottom: 20px;
+}
+.title-flex h2{
+    vertical-align: bottom;
+    padding-top: 10px;
+    color: gold;
+    font-weight: bold;
+    font-family: cursive;
+}
+.title-flex img{
+    animation: rotation 2s infinite linear;
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+  }

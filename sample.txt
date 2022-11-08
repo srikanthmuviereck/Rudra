@@ -1,0 +1,90 @@
+
+// User Types
+
+SCRT = security
+SPVR = supervisor
+CLNT = client
+
+// Live DB
+
+
+DB :: rudhratestdb
+
+USER :: rudhra
+PASS :: Dj5m?b57
+
+
+
+list client date final or all dates
+
+approved list by date or all
+
+
+superviser
+	--->security
+
+
+	security login logout,apply leave or absent by app.
+
+	sec leave approved by superviser.
+
+	sec locations
+
+	client login 
+
+	superviser listen the securities,
+	sec list details shows 
+
+
+	security login notification to client
+
+	need to change leave reason dropdown to text field
+
+	add date for client login - sec list
+
+    reject for leave request by supervisor
+
+    clarify route for distance security
+
+
+    leave req - from to date
+
+    assigned table
+
+    current date only shows map
+
+
+API list
+------------
+superviser and client push notification by sec login
+
+Client
+----------
+Date view sec login details
+list view sec login details
+Notifications
+map view for sec location
+
+supervisor
+--------------
+
+Calendar view and show sec details
+list view sec login details by supervisor
+assign building for security
+notification
+
+
+
+Admin Panel
+----------------
+
+Dashboard -> completed
+notification seciton -> list, add, delete
+building seciton -> list details, add, edit, delete
+attendance seciton -> list details, delete
+securities seciton -> list details(completed), add, edit, delete, work details
+supervisor seciton -> list details(completed), add, edit, delete, view securities
+settings section -> terms, privacy policy, about us, contact us(phone, mail, whatsapp) -> completed
+
+leave request section  ->list details, delete - no need
+client seciton -> list details(completed), add, edit, delete -> no need
